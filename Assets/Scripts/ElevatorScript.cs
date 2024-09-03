@@ -54,37 +54,7 @@ public class ElevatorScript : MonoBehaviour
     void ElevatorAtDestination()
     {
         Debug.Log($"The elevator is at the floor {CurrentFloor}");
-
     }
-
+    
 }
 
-
-
-
-//Extra(Optional):
-//Create your elevator class. V
-
-//Write methods for the elevator like:
-//Void GoUp(int howMuchFloors)
-//{
-//    ..
-//}
-//In the start method call your methods with values:
-//Start
-//{
-//GoUp(3);
-//GoDown(2);
-//...
-//}
-//Put a Debug.Log in the methods that describes the behaviour.
-//You can also use conditionals to decide it a method should execute like so:
-//Bool isShabat = true;
-//Start
-//{ if(isShabat==true){
-//DoShabatBehaviour(); //it’s a method that stops in all the floors one by one
-//}else
-//{
-//    GoUp(3);
-//}}
-//*important note: you can call methods inside methods!
