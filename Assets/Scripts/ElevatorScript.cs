@@ -7,6 +7,7 @@ using static UnityEditor.Progress;
 
 public class ElevatorScript : MonoBehaviour
 {
+//great
     int CurrentFloor;
     // Start is called before the first frame update
     void Start()
